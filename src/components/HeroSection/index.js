@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import "./heroSection.css"
+import Button from "../common/Button";
 
 const HeroSection = () => {
   return (
-    <div>
-        This is Hero Section
+    <div className="hero-section-wrapper">
+      <div className="flex absolute-center flex-col hero-section max-width">
+        <div className="hero-heading">
+          rewards for paying credit card bills.
+        </div>
+        <div className="hero-subheading">
+          join 9M+ members who win rewards and cashbacks everyday
+        </div>
+        <Button buttonText={"Download CRED"}/>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
