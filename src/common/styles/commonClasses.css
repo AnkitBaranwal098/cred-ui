@@ -1,0 +1,34 @@
+
+/* This class will restrict the maximum width the component with this class can take */
+.max-width{
+    max-width: 70%;
+    /* Make sure that our component is in center */
+    margin: auto;
+}
+
+/* Whenever we will use .flex and .absolute-center the div will be centered */
+.flex{
+    display: flex;
+}
+
+.absolute-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+
+@media all and (max-width : 1279px){
+    .max-width{
+        width: 80%;
+    }
+}
+
+@media all and (max-width : 767px){
+    .max-width{
+        width: 90%;
+    }
+}
